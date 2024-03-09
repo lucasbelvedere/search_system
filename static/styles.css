@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #45a049;
+}
+#results {
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+}
+
+#results div {
+    overflow-wrap: break-word;
+    word-break: break-all;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 100%; /* Adjust this value as needed */
+}
+
+a {
+    color: #0000EE; /* Default link color */
+    text-decoration: none; /* Removes underline from links */
+    display: inline-block; /* Allows the application of padding and margin */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover for better user experience */
+}
