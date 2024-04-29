@@ -1,5 +1,12 @@
 # Search System in Python
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white)
+
+
 A search system/engine, that works by populating a NoSQL database (MongoDB) with an inverted index to keep track of every token, and in which crawled file it is located at. The database also keeps information such as the term frequency (used later to calculate TF-IDF,) indexes of a term, and the relevance of a term within a file.
 
 After populating the database with the inverted index, if you already have all the requirements below installed (including the websites crawled from the "data" directory,) you can go ahead and run the following command.
